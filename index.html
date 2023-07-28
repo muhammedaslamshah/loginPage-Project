@@ -8,19 +8,17 @@
 </head>
 <body>
     <div class="container">
-        <form action="">
+        <form onsubmit="submitForm(event)">
             <h1>Login</h1>
             <input type="email" required placeholder="Enter email ID" id="email">
             <br>
-            <input type="text" required placeholder="Enter valid Password" id="password">
+            <input type="password" required placeholder="Enter valid Password" id="password">
             <br>
-            <p><a href="">forgot password?</a></p>
-            <input type="button" value="Submit" id="subBtn" onclick="submitB()">
+            <p><a href="#">forgot password?</a></p>
+            <input type="submit" value="Submit">
             <br>
         </form>
     </div>
-    <script src="script.js">
-        
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
