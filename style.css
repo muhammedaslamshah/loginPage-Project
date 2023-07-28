@@ -71,3 +71,7 @@ p{
     background-color: black;
     color: white;
 }
+#fter p{
+    margin-top: 180px;
+    background: transparent;
+}
